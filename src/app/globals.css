@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 更改滚动条的宽度 */
+.bar::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* 更改滚动条轨道的颜色 */
+.bar::-webkit-scrollbar-track {
+    background: #292929;
+}
+
+/* 更改滚动条滑块的颜色 */
+.bar::-webkit-scrollbar-thumb {
+    background: #c19aa4;
+}
+
+/* 更改滚动条滑块在悬停时的颜色 */
+.bar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+input::placeholder {
+    color: #555555;
+}
